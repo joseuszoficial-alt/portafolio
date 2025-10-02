@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-key="page_title">Mi Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/carousel.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#about-me" class="nav-link" data-key="nav_about">Home</a>
+            <a href="#projects" class="nav-link" data-key="nav_projects">Proyectos</a>
+            <div class="controls">
+                <button id="theme-toggle">🌙</button>
+                <select id="lang-selector">
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-me">
+            <h1 data-key="about_title">Sobre Mí</h1>
+            <p data-key="about_p1"></p>
+            <p data-key="about_p2"></p>
+            <p data-key="about_p3"></p>
+        </section>
+        
+        <section id="projects">
+    <h2 data-key="projects_title">Mis Proyectos</h2>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper" id="projects-container">
+            </div>
+        
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <p data-key="footer_text">© 2025 | José María Trillo Sánchez</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

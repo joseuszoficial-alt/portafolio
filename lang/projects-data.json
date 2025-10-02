@@ -1,0 +1,26 @@
+[
+    {
+        "title": {
+            "es": "Teclado controlado por gestos",
+            "en": "Gesture-controlled keyboard"
+        },
+        "description": {
+            "es": "Teclado diseñado para ser controlado con gestos haciendo uso de un dedo.",
+            "en": "Keyboard designed to be controlled with gestures using one finger."
+        },
+        "image": "assets/images/1.png",
+        "tags": ["python "]
+    },
+    {
+        "title": {
+            "es": "Sistema de altas de pacientes",
+            "en": "Patient discharge system"
+        },
+        "description": {
+            "es": "Dar de alta a los pacientes de la clínica universitaria.",
+            "en": "Discharge patients from the university clinic."
+        },
+        "image": "assets/images/2.png",
+        "tags": ["JavaScript ", "CSS ", "MySQL ", "PHP"]
+    }
+]

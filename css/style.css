@@ -1,0 +1,83 @@
+/* Define las paletas de colores como variables */
+/* EN css/style.css */
+:root {
+    /* Fuentes */
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Lato', sans-serif;
+
+    /* Modo Claro (por defecto) */
+    --background-color: #f8f9fa;
+    --text-color: #212529;
+    --primary-color: #0d6efd;
+    --primary-color-translucent: rgba(13, 110, 253, 0.1);
+    --card-bg-color: #ffffff;
+    --border-color: #dee2e6;
+}
+
+body.dark-mode {
+    /* Modo Oscuro */
+    --background-color: #121212;
+    --text-color: #e9ecef;
+    --primary-color: #58a6ff;
+    --primary-color-translucent: rgba(88, 166, 255, 0.1);
+    --card-bg-color: #1e1e1e;
+    --border-color: #343a40;
+}
+
+body.dark-mode {
+    /* Modo Oscuro */
+    --background-color: #1a1a1a;
+    --text-color: #f4f4f4;
+    --primary-color: #58a6ff;
+    --card-bg-color: #2c2c2c;
+}
+
+/* Estilos generales y modernos */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    line-height: 1.6;
+}
+
+header, footer {
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background-color: var(--card-bg-color);
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button, select {
+    background-color: var(--card-bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
